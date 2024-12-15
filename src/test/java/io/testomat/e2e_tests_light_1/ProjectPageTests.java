@@ -29,6 +29,7 @@ public class ProjectPageTests {
 
         //wait for project is loaded
         $("h2").shouldHave(text("Manufacture light"));
+
     }
 
 }
