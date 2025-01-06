@@ -1,5 +1,6 @@
 package io.testomat.e2e_tests_light_1.web.pages;
 
+import com.codeborne.selenide.ClickOptions;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
@@ -19,20 +20,22 @@ public class ProjectsPage {
         Selenide.open("");
     }
 
-    public void isLoaded() {
+    public ProjectsPage isLoaded() {
         searchInput.shouldBe(visible);
+        return this;
     }
 
     public void signInSuccess() {
         $("#container .common-flash-success").shouldBe(visible);
     }
 
-    public void searchForProject(String targetProjectName) {
+    public ProjectsPage searchForProject(String targetProjectName) {
         searchInput.setValue(targetProjectName);
+        return this;
     }
 
     public void selectProject(String targetProjectName) {
-        $(byText(targetProjectName)).click();
+        $(byText(targetProjectName)).click(ClickOptions.usingJavaScript());
     }
 
 
