@@ -10,9 +10,6 @@ import static io.testomat.e2e_tests_light_1.utils.StringParsers.parseIntegerFrom
 public class ProjectPageTests extends BaseTest {
 
 
-
-
-
     @BeforeEach
     void openProjectsPage() {
         app.projectsPage.open();
