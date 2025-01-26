@@ -29,11 +29,6 @@ public class ElementActions {
         driver().findElement(selector).sendKeys(text);
     }
 
-    public ElementActions find(By locator) {
-        driver().findElement(selector).findElement(locator);
-        return this;
-    }
-
     public Waits waitFor() {
         return new Waits(this.selector);
     }
