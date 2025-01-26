@@ -1,11 +1,11 @@
-package io.testomat.e2e_tests_light_1;
+package io.testomat.e2e_tests_light_1.selenide;
 
-import io.testomat.e2e_tests_light_1.utils.StringParsers;
+import io.testomat.e2e_tests_light_1.selende.utils.StringParsers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static io.testomat.e2e_tests_light_1.utils.StringParsers.parseIntegerFromString;
+import static io.testomat.e2e_tests_light_1.selende.utils.StringParsers.parseIntegerFromString;
 
 public class ProjectPageTests extends BaseTest {
 

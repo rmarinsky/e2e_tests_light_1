@@ -1,6 +1,4 @@
-package io.testomat.e2e_tests_light_1.utils;
-
-import org.jetbrains.annotations.NotNull;
+package io.testomat.e2e_tests_light_1.selende.utils;
 
 public class StringParsers {
 
