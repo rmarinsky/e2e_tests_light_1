@@ -10,7 +10,7 @@ import static io.testomat.e2e_tests_light_1.selenium.web.common.Elements.find;
 import static io.testomat.e2e_tests_light_1.selenium.web.common.Elements.findByText;
 
 @ExtendWith({WebDriverLifeCycleExtension.class, LoginTestomat.class})
-public class ProjectsTests {
+public class ProjectsWithWrapperTest {
 
     @Test
     @DisplayName("Projects possible to find by name")
