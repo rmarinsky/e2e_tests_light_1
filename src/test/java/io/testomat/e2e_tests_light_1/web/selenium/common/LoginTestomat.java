@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selenium.common;
+package io.testomat.e2e_tests_light_1.web.selenium.common;
 
 import io.testomat.e2e_tests_light_1.selenium.web.pages.LoginPageSelenium;
 import org.junit.jupiter.api.extension.BeforeAllCallback;

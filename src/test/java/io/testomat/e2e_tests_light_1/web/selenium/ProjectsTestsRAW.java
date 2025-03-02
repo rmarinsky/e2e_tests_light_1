@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selenium;
+package io.testomat.e2e_tests_light_1.web.selenium;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

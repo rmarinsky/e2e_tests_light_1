@@ -1,7 +1,7 @@
-package io.testomat.e2e_tests_light_1.selenium;
+package io.testomat.e2e_tests_light_1.web.selenium;
 
-import io.testomat.e2e_tests_light_1.selenium.common.LoginTestomat;
-import io.testomat.e2e_tests_light_1.selenium.common.WebDriverLifeCycleExtension;
+import io.testomat.e2e_tests_light_1.web.selenium.common.LoginTestomat;
+import io.testomat.e2e_tests_light_1.web.selenium.common.WebDriverLifeCycleExtension;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

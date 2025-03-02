@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.playwright.common;
+package io.testomat.e2e_tests_light_1.web.playwright.common;
 
 import com.microsoft.playwright.Page;
 import io.testomat.e2e_tests_light_1.pw.HomePage;

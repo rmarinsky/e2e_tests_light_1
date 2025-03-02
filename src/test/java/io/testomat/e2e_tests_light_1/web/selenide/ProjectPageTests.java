@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selenide;
+package io.testomat.e2e_tests_light_1.web.selenide;
 
 import io.testomat.e2e_tests_light_1.selende.utils.StringParsers;
 import org.junit.jupiter.api.Assertions;

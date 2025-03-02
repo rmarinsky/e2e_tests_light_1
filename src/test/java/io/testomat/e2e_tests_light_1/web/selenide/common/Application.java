@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selenide.common;
+package io.testomat.e2e_tests_light_1.web.selenide.common;
 
 import io.testomat.e2e_tests_light_1.selende.pages.ProjectPage;
 import io.testomat.e2e_tests_light_1.selende.pages.ProjectsPage;

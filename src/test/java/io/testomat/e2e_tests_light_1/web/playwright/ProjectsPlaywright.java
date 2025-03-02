@@ -1,9 +1,9 @@
-package io.testomat.e2e_tests_light_1.playwright;
+package io.testomat.e2e_tests_light_1.web.playwright;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.junit.UsePlaywright;
-import io.testomat.e2e_tests_light_1.playwright.common.PWApplication;
-import io.testomat.e2e_tests_light_1.playwright.common.PWOptions;
+import io.testomat.e2e_tests_light_1.web.playwright.common.PWApplication;
+import io.testomat.e2e_tests_light_1.web.playwright.common.PWOptions;
 import org.junit.jupiter.api.Test;
 
 @UsePlaywright(PWOptions.class)
