@@ -1,9 +1,9 @@
-package io.testomat.e2e_tests_light_1.selenium.web.common;
+package io.testomat.e2e_tests_light_1.web.selenium.web.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import static io.testomat.e2e_tests_light_1.selenium.web.common.WebDriverProvider.driver;
+import static io.testomat.e2e_tests_light_1.web.selenium.web.common.WebDriverProvider.driver;
 
 public class ElementActions {
 

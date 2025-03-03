@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selenium.web.common;
+package io.testomat.e2e_tests_light_1.web.selenium.web.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

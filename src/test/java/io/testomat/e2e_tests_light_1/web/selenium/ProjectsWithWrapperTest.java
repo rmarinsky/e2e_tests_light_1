@@ -6,8 +6,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import static io.testomat.e2e_tests_light_1.selenium.web.common.Elements.find;
-import static io.testomat.e2e_tests_light_1.selenium.web.common.Elements.findByText;
+import static io.testomat.e2e_tests_light_1.web.selenium.web.common.Elements.find;
+import static io.testomat.e2e_tests_light_1.web.selenium.web.common.Elements.findByText;
 
 @ExtendWith({WebDriverLifeCycleExtension.class, LoginTestomat.class})
 public class ProjectsWithWrapperTest {

@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.pw;
+package io.testomat.e2e_tests_light_1.web.pw;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.assertions.LocatorAssertions;

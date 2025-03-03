@@ -1,6 +1,6 @@
-package io.testomat.e2e_tests_light_1.selenium.web.pages;
+package io.testomat.e2e_tests_light_1.web.selenium.web.pages;
 
-import static io.testomat.e2e_tests_light_1.selenium.web.common.Elements.find;
+import static io.testomat.e2e_tests_light_1.web.selenium.web.common.Elements.find;
 
 public class LoginPageSelenium {
 

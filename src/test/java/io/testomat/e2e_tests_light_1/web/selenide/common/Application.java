@@ -1,9 +1,9 @@
 package io.testomat.e2e_tests_light_1.web.selenide.common;
 
-import io.testomat.e2e_tests_light_1.selende.pages.ProjectPage;
-import io.testomat.e2e_tests_light_1.selende.pages.ProjectsPage;
-import io.testomat.e2e_tests_light_1.selende.pages.ReadmePage;
-import io.testomat.e2e_tests_light_1.selende.pages.SignInPage;
+import io.testomat.e2e_tests_light_1.web.selende.pages.ProjectPage;
+import io.testomat.e2e_tests_light_1.web.selende.pages.ProjectsPage;
+import io.testomat.e2e_tests_light_1.web.selende.pages.ReadmePage;
+import io.testomat.e2e_tests_light_1.web.selende.pages.SignInPage;
 
 public class Application {
 

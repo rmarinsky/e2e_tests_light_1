@@ -1,10 +1,10 @@
 package io.testomat.e2e_tests_light_1.web.selenium.common;
 
-import io.testomat.e2e_tests_light_1.selenium.web.pages.LoginPageSelenium;
+import io.testomat.e2e_tests_light_1.web.selenium.web.pages.LoginPageSelenium;
 import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
-import static io.testomat.e2e_tests_light_1.selenium.web.common.WebDriverProvider.driver;
+import static io.testomat.e2e_tests_light_1.web.selenium.web.common.WebDriverProvider.driver;
 
 public class LoginTestomat implements BeforeAllCallback {
 

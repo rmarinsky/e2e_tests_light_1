@@ -1,10 +1,10 @@
 package io.testomat.e2e_tests_light_1.web.playwright.common;
 
 import com.microsoft.playwright.Page;
-import io.testomat.e2e_tests_light_1.pw.HomePage;
-import io.testomat.e2e_tests_light_1.pw.ProjectPage;
-import io.testomat.e2e_tests_light_1.pw.ProjectsPage;
-import io.testomat.e2e_tests_light_1.pw.SignInPage;
+import io.testomat.e2e_tests_light_1.web.pw.HomePage;
+import io.testomat.e2e_tests_light_1.web.pw.ProjectPage;
+import io.testomat.e2e_tests_light_1.web.pw.ProjectsPage;
+import io.testomat.e2e_tests_light_1.web.pw.SignInPage;
 
 public class PWApplication {
 

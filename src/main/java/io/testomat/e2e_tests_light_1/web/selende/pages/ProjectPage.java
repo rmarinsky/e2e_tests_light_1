@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selende.pages;
+package io.testomat.e2e_tests_light_1.web.selende.pages;
 
 import com.codeborne.selenide.Selectors;
 

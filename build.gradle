@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id("io.freefair.lombok") version "8.12.2"
 }
 
 group 'io.testomat'
@@ -25,12 +26,14 @@ tasks.withType(JavaCompile) {
 
 dependencies {
     implementation 'io.github.cdimascio:java-dotenv:5.2.2'
-
     implementation('com.codeborne:selenide:7.6.1')
     implementation 'com.microsoft.playwright:playwright:1.49.0'
     implementation('org.slf4j:slf4j-simple:2.0.13')
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+    implementation 'io.rest-assured:rest-assured:5.5.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.3'
 
-    testImplementation 'io.rest-assured:rest-assured:5.5.1'
+    testImplementation 'org.assertj:assertj-core:3.27.3'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }

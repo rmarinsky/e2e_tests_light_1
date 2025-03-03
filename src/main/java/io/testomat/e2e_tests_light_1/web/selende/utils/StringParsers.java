@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light_1.selende.utils;
+package io.testomat.e2e_tests_light_1.web.selende.utils;
 
 public class StringParsers {
 
